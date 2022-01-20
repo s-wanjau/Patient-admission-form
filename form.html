@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Patient admission</title>
+    <link rel="stylesheet"  href="css/styles.css"/>
+</head>
+<body>
+<form >
+    <h2>Patient`s details</h2>
+    <div class="flexbox">
+        <div>
+            <img src="hospitallogo.png" alt="logo">
+
+        </div>
+       
+    </div>
+    <div class="row">
+        <div class="col-20">
+            <label>First name</label><br>
+        </div>
+        <div class="col-80">
+            <input class="inputstyle"type="text" name="fname" placeholder="your name" required/><span class="asterisk">*</span>  
+        </div>
+        
+    <div class="row">
+        <div class="col-20">
+            <label>Second name</label ><br>
+
+        </div>
+        <div class="col-80">
+            <input class="inputstyle"type="text" name="sname" placeholder="your name" required/><span class="asterisk">*</span>
+
+        </div>
+        
+    </div>
+    <div class="row">
+        <div class="col-20">
+            <label>DOB</label><br>
+
+        </div>
+        <div class="col-80">
+            <input class="inputstyle"type="date" name="dob" placeholder="your age" required/><span class="asterisk">*</span>
+
+        </div>
+        
+    </div>
+    <div class="row">
+        <div class="col-20">
+            <label>Occupation</label><br>
+
+        </div>
+        <div class="col-80">
+            <input class="inputstyle"type="text" name="occupation" placeholder="your occupation" required/><span class="asterisk">*</span>
+
+        </div>
+       
+        
+    <div>
+        <label>Marital status</label><br>
+        <input type="radio" name="marital status" value="single">
+        <label>Single</label>
+        <input type="radio" name="marital status" value="married">
+        <label>Married</label>
+        <input type="radio" name="marital status" value="divorced">
+        <label>Divorced</label>
+    </div>
+    <div>
+        <label>Gender</label><br>
+        <input type="radio" name="gender" value="male" required/><span class="asterisk">*</span>
+        <label>Male</label>
+        <input type="radio" name="gender" value="female" required/><span class="asterisk">*</span>
+        <label>Female</label>
+    </div>
+    <div class="row">
+        <div class="col-20">
+            <label>Religion</label><br>
+
+        </div>
+        <div class="col-80">
+            <input class="inputstyle"type="text" name="religion" placeholder="your religion">
+
+        </div>
+        
+    </div>
+    <div class="row">
+        <div class="col-20">
+            <label>Nationality</label><br>
+
+        </div>
+        <div class="col-80">
+            <input class="inputstyle"type="text" name="nationality" placeholder="your nationality">
+
+        </div>
+        
+    </div>
+    <div class="row">
+        <div class="col-20">
+            <label>Telephone</label><br>
+
+        </div>
+        <div class="col-80">
+            <input class="inputstyle"type="tel" name="pnumber" placeholder="your phone number" required/><span class="asterisk">*</span>
+
+        </div>
+        
+    </div>
+    <div>
+        <a href="next.html">
+            <input  class="nextbtn "type="button" value="next">
+        </a>
+    </div>
+</form>
+</body>
+</html>

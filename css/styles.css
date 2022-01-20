@@ -1,0 +1,139 @@
+form {
+    border: 3px solid black;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: aquamarine;
+
+}
+
+label {
+    display: inline-block;
+    padding: 12px 12px;
+    color: black;
+
+}
+
+.resetButton {
+    background-color: darkred;
+    padding: 8px 10px;
+    color: black;
+    width: 100px;
+    border-radius: 20px;
+
+}
+
+.submitButton {
+    background-color: darkred;
+    padding: 8px 10px;
+    float: right;
+    color: black;
+    width: 100px;
+    border-radius: 20px;
+
+}
+
+.previousButton {
+    background-color: darkred;
+    padding: 8px 10px;
+    float: left;
+    color: black;
+    width: 100px;
+    border-radius: 20px;
+
+}
+
+.nextbtn {
+    background-color: darkred;
+    padding: 8px 10px;
+    float: none;
+    color: black;
+    width: 100px;
+    border-radius: 20px;
+}
+
+
+.nextbtn:hover {
+    background-color: gold;
+}
+
+.submitButton:hover {
+    background-color: gold;
+
+}
+
+.previousButton:hover {
+    background-color: gold;
+
+}
+
+.resetButton:hover {
+    background-color: gold;
+
+}
+
+
+.inputstyle {
+    width: 85%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 10px;
+}
+
+h2 {
+    text-align: center;
+    text-shadow: chartreuse;
+    color: chocolate;
+    font-family: "Arial Rounded MT Bold";
+    font-size: 30px;
+    fill-opacity: 100;
+}
+
+/*body {
+    background: white;
+}*/
+
+/*.header{
+    background: chartreuse;
+    height: 75px;
+    width: 1200px;
+    border: solid black;
+
+}*/
+
+.flexbox {
+    display: flex;
+}
+
+.flexbox >div{
+    margin: 3px;
+    padding: 3px;
+}
+
+img {
+   width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    box-shadow: 10px 10px 5px;
+}
+
+.asterisk {
+    color: red;
+}
+
+
+
+.col-20 {
+    width: 20%;
+    margin-top: 0px;
+    float: left;
+}
+
+.col-80 {
+    width: 80%;
+    margin-top: 0px;
+    float: left;
+}
+
